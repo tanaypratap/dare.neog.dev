@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* nav  */
+.nav {
+  margin: auto;
+  max-width: 90%;
+  padding: 2rem;
+  background-color: #494bf5;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  box-shadow: 3px 11px 12px #d5e1e3, -9.91px -9.91px 15px #ffffff;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-list-items {
+  list-style-type: none;
+  display: inline;
+  font-size: larger;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+/* header */
+.hero-img {
+  width: 700px;
+}
+
+.main-header {
+  display: flex;
+  max-width: 80%;
+  margin: 1rem 10%;
+  align-items: center;
+  color: #1c3548;
+}
+
+.left-header-content {
+  padding: 2rem;
+}
+
+.main-heading-txt {
+  font-size: 2.3rem;
+  line-height: 2.8rem;
+  font-weight: 800;
+}
+
+.secondary-heading-txt {
+  font-size: x-large;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.twitter-share-button {
+  background-color: #494bf5;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.benifit-list > div {
+  display: flex;
+  justify-content: center;
+}
+
+/* container */
+#rules,
+#prize-txt,
+#faq-txt,
+#benifit-txt {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+#hr {
+  width: 70%;
+  margin: 1rem 15%;
+}
+
+.container {
+  display: flex;
+  margin: 1rem 10%;
+}
+.img {
+  width: 55px;
+}
+
+.card {
+  padding: 2rem;
+  text-align: center;
+  margin: 1rem;
+  width: 30%;
+  border-radius: 1rem;
+  box-shadow: 9.91px 9.91px 15px #d5e1e3, -9.91px -9.91px 15px #ffffff;
+}
+
+.img-bg {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 86px;
+  padding: 1rem 0;
+  width: 90px;
+  margin: auto;
+}
+
+.card-1 {
+  background-color: #eaf7f9;
+}
+
+.card-2 {
+  background-color: #edf9e9;
+}
+
+.card-3 {
+  background-color: #fbebf5;
+}
+
+.headings {
+  font-size: xx-large;
+  margin: 1rem 0;
+}
+
+.content > p {
+  margin: auto;
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+/* prizes */
+.prizes,
+.faqs,
+.benifits {
+  max-width: 90%;
+  margin: 3rem 8%;
+}
+
+.prize-list,
+.benifit-list {
+  background-color: #f1f1f1;
+  padding: 3rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  list-style-type: circle;
+  font-weight: 500;
+  line-height: 1.6rem;
+  margin-top: 3rem;
+  box-shadow: 9.91px 9.91px 15px #d5e1e3, -9.91px -9.91px 15px #ffffff;
+}
+
+.prize-list-items,
+.benifit-list-items {
+  padding-bottom: 1rem;
+}
+
+/* benifits */
+
+.benifit-list {
+  background-color: #eaf7f9;
+}
+
+.benifits > ul > h3 {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.faq-content {
+  background-color: #eaf7f9;
+  padding: 3rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  list-style-type: circle;
+  font-weight: 500;
+  margin-top: 3rem;
+  box-shadow: 9.91px 9.91px 15px #d5e1e3, -9.91px -9.91px 15px #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #494bf5;
+  text-align: center;
+  padding: 1em;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 7em;
+  border-radius: 1em 1em 0 0;
+  box-shadow: 1px 13px 0px #ffffff, -9.91px -9.91px 15px #d5e1e3;
+}
+
+footer > h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  margin-top: 0.5rem;
+}
+
+.social-links {
+  width: 2em;
+  margin: 0 1.5em;
+  margin-top: 1em;
+}
+
+.social-links:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav-list {
+    margin-top: 1rem;
+  }
+
+  .main-header {
+    flex-direction: column;
+  }
+
+  .hero-img {
+    width: 400px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 1rem 8%;
+  }
+
+  .card {
+    width: auto;
+  }
+
+  .content > p {
+    width: 100%;
+  }
+
+  .prize-list,
+  .benifit-list {
+    font-size: 1.2rem;
+  }
+
+  .faq-content {
+    font-size: 1.2rem;
+  }
+}
